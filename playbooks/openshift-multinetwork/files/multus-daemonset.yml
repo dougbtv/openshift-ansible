@@ -115,7 +115,7 @@ spec:
       serviceAccountName: multus
       containers:
       - name: kube-multus
-        image: nfvpe/multus:latest
+        image: nfvpe/multus:snapshot
         resources:
           requests:
             cpu: "100m"
